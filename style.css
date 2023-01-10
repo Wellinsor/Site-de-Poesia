@@ -36,6 +36,16 @@ section{
     padding-left: 10px;
     font-family: var(--fonte2);
     font-size: 1em;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+section.imagns > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: aliceblue;
+   
 }
 
 section.normal{
@@ -44,11 +54,22 @@ section.normal{
 
 section.imagns{
     background-color: aqua;
+    box-shadow: 6px 6px 13px 6px rgba(0, 0, 0, 0.158);
 }
+section#img01{
+    background-image: url(imagns/01.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url(imagns/02.jpg);
+    background-size: cover;
+}
+
 
 footer{
     color: aliceblue;
     background-color: black;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
